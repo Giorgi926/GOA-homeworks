@@ -1,37 +1,35 @@
-# ზოგჯერ მონაცემები გადმოგვეცემა არა საჭირო სახით, თუ ჩვენ გვინდა მათზე ვიმუშაოთ უნდა გადავაქციოთ საჭირო მონაცემთა ტიპად
-# მაგალითად: გადმოგვეცემა string რიცხვი და ჩვენი დავალებაა მივუმატოთ ის ნებისმიერ მათემატიკურ რიცხვს, ამ შემთხვევაში
-# დაგვჭირდება მონაცემთა ტიპის კონვერტაცია(შეცვლა)
+print(5 > 2)
+print(11 > 5)
+print(6 >12)
 
-age1 = int(input("Please enter your age: "))
-age2 = int(input("Please enter your age: "))
-age3 = int(input("Please enter your age: "))
+print(30 < 20)
+print(50 < 150)
+print(55 < 66)
 
-print((age1 + age2 + age3) / 3)
+print(33 >= 33)
+print(11 >= 33)
+print(44 >= 44)
 
-name = int(input("enter your age: "))
-future_age = name + 5
-print(future_age)
+print(7 <= 7)
+print(14 <= 63)
+print(26 <= 35)
 
-num1 = 5
-num2 = 10
-print(num2 > num1)
+print(300 == 500)
+print(13 == 13)
+print(100 == 100)
 
-num1 = 15
-num3 = 5
-print(num1 > num3)
+print(55 != 37)
+print(28 != 4)
+print(18 != 17)
 
-num5 = 5
-num6 = 3
-print(num5 >= num6) 
+#მონაცემთა ტიპის კონვერტაცია გვწირდება კომპიუტერში მონაცემთა შენახვისთვის და მათზე გარკვეული მოქმედების განხორციალებისთვის.
 
-num7 = 8
-num8 = 10
-print(num7 <= num8)
+x = 10
+y = 5
+print(x + y)
 
-num9 = 8
-num10 = 6
-print(num9 != num10)
+str = "My name"
+print(str)
 
-num11 = 150
-num12 = 150
-print(num11 == num12)
+fnum = 34.45
+print(fnum)
