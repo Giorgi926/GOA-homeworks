@@ -1,0 +1,20 @@
+button {
+color: black;
+background-color: blue;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+a {
+    color: indigo;
+}
+
+p {
+    color: red;
+    text-align: center;
+    background-color: black;
+    
+}
